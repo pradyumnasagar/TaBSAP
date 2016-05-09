@@ -1,0 +1,47 @@
+[Sequence Location] - IMPORTANT -
+Please specify the exact genomic location of the analyzed sequence.
+
+Accession number of sequence:
+Genome browser link:
+Additional position information (if applicable):
+
+
+[Functional Elements]
+Please specify the sequence characteristics by ticking the appropriate box(es).
+( ) intergenic
+	( ) repetitive element, please specify type (L1, ALU, etc.):
+	( ) upstream (2 - 10 kb upstream of transcriptional start site)
+	( ) promoter (2 kb upstream to 500 bp downstream of transcription start site)
+( ) exonic
+( ) intronic
+
+Does the sequence relate to a gene? Please give its official name:
+
+
+[Imprinting]
+Are there any allele-specific sequence polymorphisms present in sequence? Please tick.
+( ) yes
+( ) no
+
+If yes, please give its position and specify the polymorphism in detail:
+
+
+[Experimental details]
+Which primers were used? Please give their sequences:
+
+How was the experiment carried out? Please specify the protocol used and any deviations from it (or give a lab notebook cross-reference):
+
+
+[Quality control]
+Please roughly estimate the quality of your sequences:
+( ) very good
+( ) good
+( ) average
+( ) just acceptable
+( ) poor
+
+What kind of quality problems are present in the sequences? Please specify type and severity:
+
+
+[Free comment (motivation / findings / problems / ...)]
+Please use this space to give any additional details relating to the experiment, its motivation, or its results:

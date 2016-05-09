@@ -1,0 +1,450 @@
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' width='1500' height='471' viewBox='0 0 1500 471' zoomAndPan='disable'>
+  <g id='diagram' fill='black' stroke-opacity='100%' fill-opacity='80%' text-anchor='start' font-family='Arial' font-size='27'>
+  <rect stroke='none' fill='white' fill-opacity='100%' x='0' y='0' width='1500' height='471'/>
+    <text x='3.0' y='33.0'>[7]seq_I.fasta</text>
+    <text x='3.0' y='69.0'>[6]seq_H.fasta</text>
+    <text x='3.0' y='105.0'>[5]seq_E.fasta</text>
+    <text x='3.0' y='141.0'>[4]seq_C.fasta</text>
+    <text x='3.0' y='177.0'>[3]seq_B.fasta</text>
+    <text x='3.0' y='213.0'>[2]seq_A.fasta</text>
+    <text x='3.0' y='276.0'>[7]seq_I.fasta</text>
+    <text x='3.0' y='312.0'>[6]seq_H.fasta</text>
+    <text x='3.0' y='348.0'>[5]seq_E.fasta</text>
+    <text x='3.0' y='384.0'>[4]seq_C.fasta</text>
+    <text x='3.0' y='420.0'>[3]seq_B.fasta</text>
+    <text x='3.0' y='456.0'>[2]seq_A.fasta</text>
+    <line stroke='black' x1='234' y1='-220' x2='225' y2='-220'/>
+    <line stroke='black' x1='225' y1='22' x2='243' y2='22'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='252' cy='22' r='9'/>
+    <line stroke='black' x1='261' y1='22' x2='297' y2='22'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='306' cy='22' r='9'/>
+    <line stroke='black' x1='315' y1='22' x2='504' y2='22'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='513' cy='22' r='9'/>
+    <line stroke='black' x1='522' y1='22' x2='648' y2='22'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='657' cy='22' r='9'/>
+    <line stroke='black' x1='666' y1='22' x2='675' y2='22'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='684' cy='22' r='9'/>
+    <line stroke='black' x1='693' y1='22' x2='747' y2='22'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='756' cy='22' r='9'/>
+    <line stroke='black' x1='765' y1='22' x2='765' y2='22'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='774' cy='22' r='9'/>
+    <line stroke='black' x1='783' y1='22' x2='837' y2='22'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='846' cy='22' r='9'/>
+    <line stroke='black' x1='855' y1='22' x2='873' y2='22'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='882' cy='22' r='9'/>
+    <line stroke='black' x1='891' y1='22' x2='963' y2='22'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='972' cy='22' r='9'/>
+    <line stroke='black' x1='981' y1='22' x2='1080' y2='22'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1089' cy='22' r='9'/>
+    <line stroke='black' x1='1098' y1='22' x2='1098' y2='22'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1107' cy='22' r='9'/>
+    <line stroke='black' x1='1116' y1='22' x2='1134' y2='22'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1143' cy='22' r='9'/>
+    <line stroke='black' x1='1152' y1='22' x2='1152' y2='22'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1161' cy='22' r='9'/>
+    <line stroke='black' x1='1170' y1='22' x2='1206' y2='22'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1215' cy='22' r='9'/>
+    <line stroke='black' x1='1224' y1='22' x2='1278' y2='22'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1287' cy='22' r='9'/>
+    <line stroke='black' x1='1296' y1='22' x2='1296' y2='22'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1305' cy='22' r='9'/>
+    <line stroke='black' x1='1314' y1='22' x2='1341' y2='22'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1350' cy='22' r='9'/>
+    <line stroke='black' x1='1359' y1='22' x2='1368' y2='22'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1377' cy='22' r='9'/>
+    <line stroke='black' x1='1386' y1='22' x2='1395' y2='22'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1404' cy='22' r='9'/>
+    <line stroke='black' x1='1413' y1='22' x2='1440' y2='22'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='234' cy='265' r='9'/>
+    <line stroke='black' x1='243' y1='265' x2='306' y2='265'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='315' cy='265' r='9'/>
+    <line stroke='black' x1='324' y1='265' x2='333' y2='265'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='342' cy='265' r='9'/>
+    <line stroke='black' x1='351' y1='265' x2='378' y2='265'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='387' cy='265' r='9'/>
+    <line stroke='black' x1='396' y1='265' x2='441' y2='265'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='450' cy='265' r='9'/>
+    <line stroke='black' x1='459' y1='265' x2='468' y2='265'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='477' cy='265' r='9'/>
+    <line stroke='black' x1='486' y1='265' x2='486' y2='265'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='495' cy='265' r='9'/>
+    <line stroke='black' x1='504' y1='265' x2='504' y2='265'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='513' cy='265' r='9'/>
+    <line stroke='black' x1='522' y1='265' x2='576' y2='265'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='585' cy='265' r='9'/>
+    <line stroke='black' x1='594' y1='265' x2='594' y2='265'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='603' cy='265' r='9'/>
+    <line stroke='black' x1='612' y1='265' x2='783' y2='265'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='792' cy='265' r='9'/>
+    <line stroke='black' x1='801' y1='265' x2='801' y2='265'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='810' cy='265' r='9'/>
+    <line stroke='black' x1='819' y1='265' x2='882' y2='265'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='891' cy='265' r='9'/>
+    <line stroke='black' x1='900' y1='265' x2='954' y2='265'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='963' cy='265' r='9'/>
+    <line stroke='black' x1='972' y1='265' x2='1089' y2='265'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1098' cy='265' r='9'/>
+    <line stroke='black' x1='1107' y1='265' x2='1107' y2='265'/>
+    <line stroke='black' x1='234' y1='-184' x2='225' y2='-184'/>
+    <line stroke='black' x1='225' y1='58' x2='243' y2='58'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='252' cy='58' r='9'/>
+    <line stroke='black' x1='261' y1='58' x2='297' y2='58'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='306' cy='58' r='9'/>
+    <line stroke='black' x1='315' y1='58' x2='504' y2='58'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='513' cy='58' r='9'/>
+    <line stroke='black' x1='522' y1='58' x2='648' y2='58'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='657' cy='58' r='9'/>
+    <line stroke='black' x1='666' y1='58' x2='675' y2='58'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='684' cy='58' r='9'/>
+    <line stroke='black' x1='693' y1='58' x2='747' y2='58'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='756' cy='58' r='9'/>
+    <line stroke='black' x1='765' y1='58' x2='765' y2='58'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='774' cy='58' r='9'/>
+    <line stroke='black' x1='783' y1='58' x2='837' y2='58'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='846' cy='58' r='9'/>
+    <line stroke='black' x1='855' y1='58' x2='873' y2='58'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='882' cy='58' r='9'/>
+    <line stroke='black' x1='891' y1='58' x2='963' y2='58'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='972' cy='58' r='9'/>
+    <line stroke='black' x1='981' y1='58' x2='1080' y2='58'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1089' cy='58' r='9'/>
+    <line stroke='black' x1='1098' y1='58' x2='1098' y2='58'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1107' cy='58' r='9'/>
+    <line stroke='black' x1='1116' y1='58' x2='1134' y2='58'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1143' cy='58' r='9'/>
+    <line stroke='black' x1='1152' y1='58' x2='1152' y2='58'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1161' cy='58' r='9'/>
+    <line stroke='black' x1='1170' y1='58' x2='1206' y2='58'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1215' cy='58' r='9'/>
+    <line stroke='black' x1='1224' y1='58' x2='1278' y2='58'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1287' cy='58' r='9'/>
+    <line stroke='black' x1='1296' y1='58' x2='1296' y2='58'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1305' cy='58' r='9'/>
+    <line stroke='black' x1='1314' y1='58' x2='1341' y2='58'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1350' cy='58' r='9'/>
+    <line stroke='black' x1='1359' y1='58' x2='1368' y2='58'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1377' cy='58' r='9'/>
+    <line stroke='black' x1='1386' y1='58' x2='1395' y2='58'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1404' cy='58' r='9'/>
+    <line stroke='black' x1='1413' y1='58' x2='1440' y2='58'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='234' cy='301' r='9'/>
+    <line stroke='black' x1='243' y1='301' x2='306' y2='301'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='315' cy='301' r='9'/>
+    <line stroke='black' x1='324' y1='301' x2='333' y2='301'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='342' cy='301' r='9'/>
+    <line stroke='black' x1='351' y1='301' x2='378' y2='301'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='387' cy='301' r='9'/>
+    <line stroke='black' x1='396' y1='301' x2='441' y2='301'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='450' cy='301' r='9'/>
+    <line stroke='black' x1='459' y1='301' x2='468' y2='301'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='477' cy='301' r='9'/>
+    <line stroke='black' x1='486' y1='301' x2='486' y2='301'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='495' cy='301' r='9'/>
+    <line stroke='black' x1='504' y1='301' x2='504' y2='301'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='513' cy='301' r='9'/>
+    <line stroke='black' x1='522' y1='301' x2='576' y2='301'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='585' cy='301' r='9'/>
+    <line stroke='black' x1='594' y1='301' x2='594' y2='301'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='603' cy='301' r='9'/>
+    <line stroke='black' x1='612' y1='301' x2='783' y2='301'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='792' cy='301' r='9'/>
+    <line stroke='black' x1='801' y1='301' x2='801' y2='301'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='810' cy='301' r='9'/>
+    <line stroke='black' x1='819' y1='301' x2='882' y2='301'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='891' cy='301' r='9'/>
+    <line stroke='black' x1='900' y1='301' x2='954' y2='301'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='963' cy='301' r='9'/>
+    <line stroke='black' x1='972' y1='301' x2='1089' y2='301'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1098' cy='301' r='9'/>
+    <line stroke='black' x1='1107' y1='301' x2='1107' y2='301'/>
+    <line stroke='black' x1='234' y1='-148' x2='225' y2='-148'/>
+    <line stroke='black' x1='225' y1='94' x2='243' y2='94'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='252' cy='94' r='9'/>
+    <line stroke='black' x1='261' y1='94' x2='297' y2='94'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='306' cy='94' r='9'/>
+    <line stroke='black' x1='315' y1='94' x2='504' y2='94'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='513' cy='94' r='9'/>
+    <line stroke='black' x1='522' y1='94' x2='648' y2='94'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='657' cy='94' r='9'/>
+    <line stroke='black' x1='666' y1='94' x2='675' y2='94'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='684' cy='94' r='9'/>
+    <line stroke='black' x1='693' y1='94' x2='747' y2='94'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='756' cy='94' r='9'/>
+    <line stroke='black' x1='765' y1='94' x2='765' y2='94'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='774' cy='94' r='9'/>
+    <line stroke='black' x1='783' y1='94' x2='837' y2='94'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='846' cy='94' r='9'/>
+    <line stroke='black' x1='855' y1='94' x2='873' y2='94'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='882' cy='94' r='9'/>
+    <line stroke='black' x1='891' y1='94' x2='963' y2='94'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='972' cy='94' r='9'/>
+    <line stroke='black' x1='981' y1='94' x2='1080' y2='94'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1089' cy='94' r='9'/>
+    <line stroke='black' x1='1098' y1='94' x2='1098' y2='94'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1107' cy='94' r='9'/>
+    <line stroke='black' x1='1116' y1='94' x2='1134' y2='94'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1143' cy='94' r='9'/>
+    <line stroke='black' x1='1152' y1='94' x2='1152' y2='94'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1161' cy='94' r='9'/>
+    <line stroke='black' x1='1170' y1='94' x2='1206' y2='94'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1215' cy='94' r='9'/>
+    <line stroke='black' x1='1224' y1='94' x2='1278' y2='94'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1287' cy='94' r='9'/>
+    <line stroke='black' x1='1296' y1='94' x2='1296' y2='94'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1305' cy='94' r='9'/>
+    <line stroke='black' x1='1314' y1='94' x2='1341' y2='94'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1350' cy='94' r='9'/>
+    <line stroke='black' x1='1359' y1='94' x2='1368' y2='94'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1377' cy='94' r='9'/>
+    <line stroke='black' x1='1386' y1='94' x2='1395' y2='94'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1404' cy='94' r='9'/>
+    <line stroke='black' x1='1413' y1='94' x2='1440' y2='94'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='234' cy='337' r='9'/>
+    <line stroke='black' x1='243' y1='337' x2='306' y2='337'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='315' cy='337' r='9'/>
+    <line stroke='black' x1='324' y1='337' x2='333' y2='337'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='342' cy='337' r='9'/>
+    <line stroke='black' x1='351' y1='337' x2='378' y2='337'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='387' cy='337' r='9'/>
+    <line stroke='black' x1='396' y1='337' x2='441' y2='337'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='450' cy='337' r='9'/>
+    <line stroke='black' x1='459' y1='337' x2='468' y2='337'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='477' cy='337' r='9'/>
+    <line stroke='black' x1='486' y1='337' x2='486' y2='337'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='495' cy='337' r='9'/>
+    <line stroke='black' x1='504' y1='337' x2='504' y2='337'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='513' cy='337' r='9'/>
+    <line stroke='black' x1='522' y1='337' x2='576' y2='337'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='585' cy='337' r='9'/>
+    <line stroke='black' x1='594' y1='337' x2='594' y2='337'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='603' cy='337' r='9'/>
+    <line stroke='black' x1='612' y1='337' x2='783' y2='337'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='792' cy='337' r='9'/>
+    <line stroke='black' x1='801' y1='337' x2='801' y2='337'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='810' cy='337' r='9'/>
+    <line stroke='black' x1='819' y1='337' x2='882' y2='337'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='891' cy='337' r='9'/>
+    <line stroke='black' x1='900' y1='337' x2='954' y2='337'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='963' cy='337' r='9'/>
+    <line stroke='black' x1='972' y1='337' x2='1089' y2='337'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1098' cy='337' r='9'/>
+    <line stroke='black' x1='1107' y1='337' x2='1107' y2='337'/>
+    <line stroke='black' x1='234' y1='-112' x2='225' y2='-112'/>
+    <line stroke='black' x1='225' y1='130' x2='243' y2='130'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='252' cy='130' r='9'/>
+    <line stroke='black' x1='261' y1='130' x2='297' y2='130'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='306' cy='130' r='9'/>
+    <line stroke='black' x1='315' y1='130' x2='504' y2='130'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='513' cy='130' r='9'/>
+    <line stroke='black' x1='522' y1='130' x2='648' y2='130'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='657' cy='130' r='9'/>
+    <line stroke='black' x1='666' y1='130' x2='675' y2='130'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='684' cy='130' r='9'/>
+    <line stroke='black' x1='693' y1='130' x2='747' y2='130'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='756' cy='130' r='9'/>
+    <line stroke='black' x1='765' y1='130' x2='765' y2='130'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='774' cy='130' r='9'/>
+    <line stroke='black' x1='783' y1='130' x2='837' y2='130'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='846' cy='130' r='9'/>
+    <line stroke='black' x1='855' y1='130' x2='873' y2='130'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='882' cy='130' r='9'/>
+    <line stroke='black' x1='891' y1='130' x2='963' y2='130'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='972' cy='130' r='9'/>
+    <line stroke='black' x1='981' y1='130' x2='1080' y2='130'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1089' cy='130' r='9'/>
+    <line stroke='black' x1='1098' y1='130' x2='1098' y2='130'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1107' cy='130' r='9'/>
+    <line stroke='black' x1='1116' y1='130' x2='1134' y2='130'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1143' cy='130' r='9'/>
+    <line stroke='black' x1='1152' y1='130' x2='1152' y2='130'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1161' cy='130' r='9'/>
+    <line stroke='black' x1='1170' y1='130' x2='1206' y2='130'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1215' cy='130' r='9'/>
+    <line stroke='black' x1='1224' y1='130' x2='1278' y2='130'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1287' cy='130' r='9'/>
+    <line stroke='black' x1='1296' y1='130' x2='1296' y2='130'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1305' cy='130' r='9'/>
+    <line stroke='black' x1='1314' y1='130' x2='1341' y2='130'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1350' cy='130' r='9'/>
+    <line stroke='black' x1='1359' y1='130' x2='1368' y2='130'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1377' cy='130' r='9'/>
+    <line stroke='black' x1='1386' y1='130' x2='1395' y2='130'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1404' cy='130' r='9'/>
+    <line stroke='black' x1='1413' y1='130' x2='1440' y2='130'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='234' cy='373' r='9'/>
+    <line stroke='black' x1='243' y1='373' x2='306' y2='373'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='315' cy='373' r='9'/>
+    <line stroke='black' x1='324' y1='373' x2='333' y2='373'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='342' cy='373' r='9'/>
+    <line stroke='black' x1='351' y1='373' x2='378' y2='373'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='387' cy='373' r='9'/>
+    <line stroke='black' x1='396' y1='373' x2='441' y2='373'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='450' cy='373' r='9'/>
+    <line stroke='black' x1='459' y1='373' x2='468' y2='373'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='477' cy='373' r='9'/>
+    <line stroke='black' x1='486' y1='373' x2='486' y2='373'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='495' cy='373' r='9'/>
+    <line stroke='black' x1='504' y1='373' x2='504' y2='373'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='513' cy='373' r='9'/>
+    <line stroke='black' x1='522' y1='373' x2='576' y2='373'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='585' cy='373' r='9'/>
+    <line stroke='black' x1='594' y1='373' x2='594' y2='373'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='603' cy='373' r='9'/>
+    <line stroke='black' x1='612' y1='373' x2='783' y2='373'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='792' cy='373' r='9'/>
+    <line stroke='black' x1='801' y1='373' x2='801' y2='373'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='810' cy='373' r='9'/>
+    <line stroke='black' x1='819' y1='373' x2='882' y2='373'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='891' cy='373' r='9'/>
+    <line stroke='black' x1='900' y1='373' x2='954' y2='373'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='963' cy='373' r='9'/>
+    <line stroke='black' x1='972' y1='373' x2='1089' y2='373'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1098' cy='373' r='9'/>
+    <line stroke='black' x1='1107' y1='373' x2='1107' y2='373'/>
+    <line stroke='black' x1='234' y1='-76' x2='225' y2='-76'/>
+    <line stroke='black' x1='225' y1='166' x2='243' y2='166'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='252' cy='166' r='9'/>
+    <line stroke='black' x1='261' y1='166' x2='297' y2='166'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='306' cy='166' r='9'/>
+    <line stroke='black' x1='315' y1='166' x2='504' y2='166'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='513' cy='166' r='9'/>
+    <line stroke='black' x1='522' y1='166' x2='648' y2='166'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='657' cy='166' r='9'/>
+    <line stroke='black' x1='666' y1='166' x2='675' y2='166'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='684' cy='166' r='9'/>
+    <line stroke='black' x1='693' y1='166' x2='747' y2='166'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='756' cy='166' r='9'/>
+    <line stroke='black' x1='765' y1='166' x2='765' y2='166'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='774' cy='166' r='9'/>
+    <line stroke='black' x1='783' y1='166' x2='837' y2='166'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='846' cy='166' r='9'/>
+    <line stroke='black' x1='855' y1='166' x2='873' y2='166'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='882' cy='166' r='9'/>
+    <line stroke='black' x1='891' y1='166' x2='963' y2='166'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='972' cy='166' r='9'/>
+    <line stroke='black' x1='981' y1='166' x2='1080' y2='166'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1089' cy='166' r='9'/>
+    <line stroke='black' x1='1098' y1='166' x2='1098' y2='166'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1107' cy='166' r='9'/>
+    <line stroke='black' x1='1116' y1='166' x2='1134' y2='166'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1143' cy='166' r='9'/>
+    <line stroke='black' x1='1152' y1='166' x2='1152' y2='166'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1161' cy='166' r='9'/>
+    <line stroke='black' x1='1170' y1='166' x2='1206' y2='166'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1215' cy='166' r='9'/>
+    <line stroke='black' x1='1224' y1='166' x2='1278' y2='166'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1287' cy='166' r='9'/>
+    <line stroke='black' x1='1296' y1='166' x2='1296' y2='166'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1305' cy='166' r='9'/>
+    <line stroke='black' x1='1314' y1='166' x2='1341' y2='166'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1350' cy='166' r='9'/>
+    <line stroke='black' x1='1359' y1='166' x2='1368' y2='166'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1377' cy='166' r='9'/>
+    <line stroke='black' x1='1386' y1='166' x2='1395' y2='166'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1404' cy='166' r='9'/>
+    <line stroke='black' x1='1413' y1='166' x2='1440' y2='166'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='234' cy='409' r='9'/>
+    <line stroke='black' x1='243' y1='409' x2='306' y2='409'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='315' cy='409' r='9'/>
+    <line stroke='black' x1='324' y1='409' x2='333' y2='409'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='342' cy='409' r='9'/>
+    <line stroke='black' x1='351' y1='409' x2='378' y2='409'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='387' cy='409' r='9'/>
+    <line stroke='black' x1='396' y1='409' x2='441' y2='409'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='450' cy='409' r='9'/>
+    <line stroke='black' x1='459' y1='409' x2='468' y2='409'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='477' cy='409' r='9'/>
+    <line stroke='black' x1='486' y1='409' x2='486' y2='409'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='495' cy='409' r='9'/>
+    <line stroke='black' x1='504' y1='409' x2='504' y2='409'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='513' cy='409' r='9'/>
+    <line stroke='black' x1='522' y1='409' x2='576' y2='409'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='585' cy='409' r='9'/>
+    <line stroke='black' x1='594' y1='409' x2='594' y2='409'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='603' cy='409' r='9'/>
+    <line stroke='black' x1='612' y1='409' x2='783' y2='409'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='792' cy='409' r='9'/>
+    <line stroke='black' x1='801' y1='409' x2='801' y2='409'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='810' cy='409' r='9'/>
+    <line stroke='black' x1='819' y1='409' x2='882' y2='409'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='891' cy='409' r='9'/>
+    <line stroke='black' x1='900' y1='409' x2='954' y2='409'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='963' cy='409' r='9'/>
+    <line stroke='black' x1='972' y1='409' x2='1089' y2='409'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='1098' cy='409' r='9'/>
+    <line stroke='black' x1='1107' y1='409' x2='1107' y2='409'/>
+    <line stroke='black' x1='234' y1='-40' x2='225' y2='-40'/>
+    <line stroke='black' x1='225' y1='202' x2='243' y2='202'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='252' cy='202' r='9'/>
+    <line stroke='black' x1='261' y1='202' x2='297' y2='202'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='306' cy='202' r='9'/>
+    <line stroke='black' x1='315' y1='202' x2='504' y2='202'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='513' cy='202' r='9'/>
+    <line stroke='black' x1='522' y1='202' x2='648' y2='202'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='657' cy='202' r='9'/>
+    <line stroke='black' x1='666' y1='202' x2='675' y2='202'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='684' cy='202' r='9'/>
+    <line stroke='black' x1='693' y1='202' x2='747' y2='202'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='756' cy='202' r='9'/>
+    <line stroke='black' x1='765' y1='202' x2='765' y2='202'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='774' cy='202' r='9'/>
+    <line stroke='black' x1='783' y1='202' x2='837' y2='202'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='846' cy='202' r='9'/>
+    <line stroke='black' x1='855' y1='202' x2='873' y2='202'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='882' cy='202' r='9'/>
+    <line stroke='black' x1='891' y1='202' x2='963' y2='202'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='972' cy='202' r='9'/>
+    <line stroke='black' x1='981' y1='202' x2='1080' y2='202'/>
+    <line stroke='black' x1='1089' y1='212' x2='1089' y2='206'/>
+    <line stroke='black' x1='1098' y1='202' x2='1098' y2='202'/>
+    <line stroke='black' x1='1107' y1='212' x2='1107' y2='206'/>
+    <line stroke='black' x1='1116' y1='202' x2='1134' y2='202'/>
+    <line stroke='black' x1='1143' y1='212' x2='1143' y2='206'/>
+    <line stroke='black' x1='1152' y1='202' x2='1152' y2='202'/>
+    <line stroke='black' x1='1161' y1='212' x2='1161' y2='206'/>
+    <line stroke='black' x1='1170' y1='202' x2='1206' y2='202'/>
+    <line stroke='black' x1='1215' y1='212' x2='1215' y2='206'/>
+    <line stroke='black' x1='1224' y1='202' x2='1278' y2='202'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1287' cy='202' r='9'/>
+    <line stroke='black' x1='1296' y1='202' x2='1296' y2='202'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1305' cy='202' r='9'/>
+    <line stroke='black' x1='1314' y1='202' x2='1341' y2='202'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1350' cy='202' r='9'/>
+    <line stroke='black' x1='1359' y1='202' x2='1368' y2='202'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1377' cy='202' r='9'/>
+    <line stroke='black' x1='1386' y1='202' x2='1395' y2='202'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1404' cy='202' r='9'/>
+    <line stroke='black' x1='1413' y1='202' x2='1440' y2='202'/>
+    <line stroke='black' x1='234' y1='455' x2='234' y2='449'/>
+    <line stroke='black' x1='243' y1='445' x2='306' y2='445'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='315' cy='445' r='9'/>
+    <line stroke='black' x1='324' y1='445' x2='333' y2='445'/>
+    <line stroke='black' x1='342' y1='455' x2='342' y2='449'/>
+    <line stroke='black' x1='351' y1='445' x2='378' y2='445'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='387' cy='445' r='9'/>
+    <line stroke='black' x1='396' y1='445' x2='441' y2='445'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='450' cy='445' r='9'/>
+    <line stroke='black' x1='459' y1='445' x2='468' y2='445'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='477' cy='445' r='9'/>
+    <line stroke='black' x1='486' y1='445' x2='486' y2='445'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='495' cy='445' r='9'/>
+    <line stroke='black' x1='504' y1='445' x2='504' y2='445'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='513' cy='445' r='9'/>
+    <line stroke='black' x1='522' y1='445' x2='576' y2='445'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='585' cy='445' r='9'/>
+    <line stroke='black' x1='594' y1='445' x2='594' y2='445'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='603' cy='445' r='9'/>
+    <line stroke='black' x1='612' y1='445' x2='783' y2='445'/>
+    <line stroke='black' x1='792' y1='455' x2='792' y2='449'/>
+    <line stroke='black' x1='801' y1='445' x2='801' y2='445'/>
+    <circle stroke='black' fill='rgb(255, 255, 255)' cx='810' cy='445' r='9'/>
+    <line stroke='black' x1='819' y1='445' x2='882' y2='445'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='891' cy='445' r='9'/>
+    <line stroke='black' x1='900' y1='445' x2='954' y2='445'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='963' cy='445' r='9'/>
+    <line stroke='black' x1='972' y1='445' x2='1089' y2='445'/>
+    <circle stroke='black' fill='rgb(0, 0, 0)' cx='1098' cy='445' r='9'/>
+    <line stroke='black' x1='1107' y1='445' x2='1107' y2='445'/>
+  </g>
+</svg>
+

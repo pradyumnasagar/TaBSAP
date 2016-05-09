@@ -1,0 +1,137 @@
+<html>
+<head>
+<title>BiQ Analyzer - Bisulfite Sequencing Experiment Documentation and DNA Methylation Data</title>
+</head>
+<body>
+<h2>Experiment Documentation Questionnaire</h2>
+<pre>
+
+
+
+[BiQ Analyzer Documentation (automatically generated)]
+Date of quality check: 28 August 2008
+Conversion type: C -> T
+Genomic Sequence (original): CCCGGGATCGCTCTCCCAGCAGGTGAAGCCTCGCCATGGACCCTCCCCGTCGGGGCCCCGCGCTGCCCCGCCCGCCCCCAGCCGCTGGCCAAGGCCGCGGTCGCGCAGGCGCAGTGCCGCGTCCCGCCGCCGCCCCGCCCTGCCCGTCGCTGCGGAAGGCGCCGCGCGCAGCAACGCGCACTTCCTCTCCAGGAATCCGCGGAGGGAGCGCAGGCTCGAAGAGCTCCTGGACG
+Genomic Sequence (fully converted): TTCGGGATCGTTTTTTTAGTAGGTGAAGTTTCGTTATGGATTTTTTTCGTCGGGGTTTCGCGTTGTTTCGTTCGTTTTTAGTCGTTGGTTAAGGTCGCGGTCGCGTAGGCGTAGTGTCGCGTTTCGTCGTCGTTTCGTTTTGTTCGTCGTTGCGGAAGGCGTCGCGCGTAGTAACGCGTATTTTTTTTTTAGGAATTCGCGGAGGGAGCGTAGGTTCGAAGAGTTTTTGGACG
+
+
+[BiQ Analyzer Quality Data (automatically generated)]
+Number of sequences excluded during the analysis:4
+Names of sequences excluded during the analysis: 
+seq_D.fasta - excluded in step 3 (removal of sequences with low conversion rate or abundant sequencing errors)
+seq_F.fasta - excluded in step 3 (removal of sequences with low conversion rate or abundant sequencing errors)
+seq_G.fasta - excluded in step 4 (removal of clonal sequences)
+seq_J.fasta - excluded in step 3 (removal of sequences with low conversion rate or abundant sequencing errors)
+
+List of sequence identities relative to the genomic sequence in the final pileup (gaps ignored):
+Sequence [2]: 91%
+Sequence [3]: 99%
+Sequence [4]: 100%
+Sequence [5]: 100%
+Sequence [6]: 99%
+Sequence [7]: 100%
+
+List of the sequences' conversion rates in the final pileup:
+Sequence [2]: 100%   (66 out of 66)
+Sequence [3]: 96%   (66 out of 69)
+Sequence [4]: 99%   (68 out of 69)
+Sequence [5]: 96%   (66 out of 69)
+Sequence [6]: 100%   (68 out of 68)
+Sequence [7]: 100%   (69 out of 69)
+</pre>
+<hr>
+<h2>Sequence Pileup</h2>
+<pre>
+Needleman-Wunsch pairwise alignment
+
+Genomic_Sequence      TT<font color="#FF9541"><B>CG</B></font>GGAT<font color="#FF9541"><B>CG</B></font>T-TTTTTTAGTAGGTGAAGTTT<font color="#FF9541"><B>CG</B></font>TTATGGATTTTTTT<font color="#FF9541"><B>CG</B></font>T<font color="#FF9541"><B>CG</B></font>GGGTTT<font color="#FF9541"><B>C</B></font>
+[2]seq_A.fasta        TT<font color="#FF9541"><B>CG</B></font>GGAT<font color="#A070EE"><B>TG</B></font>T-TTTTTTAGTAGGTGAAGTTT<font color="#A070EE"><B>TG</B></font>TTATGGATTTTTTT<font color="#A070EE"><B>TG</B></font>T<font color="#A070EE"><B>TG</B></font>GGGTTT<font color="#FF9541"><B>C</B></font>
+[3]seq_B.fasta        TT<font color="#A070EE"><B>TG</B></font>GGAT<font color="#A070EE"><B>TG</B></font>T-TTTTTTAGTAGGTGAAGTTT<font color="#A070EE"><B>TG</B></font>TTATGGATTTTTTT<font color="#A070EE"><B>TG</B></font>T<font color="#A070EE"><B>TG</B></font>GGGTTT<font color="#A070EE"><B>T</B></font>
+[4]seq_C.fasta        TT<font color="#FF9541"><B>CG</B></font>GGAT<font color="#FF9541"><B>CG</B></font>T-TTTTTTAGTAGGTGAAGTTT<font color="#A070EE"><B>TG</B></font>TTATGGATTTTTTT<font color="#FF9541"><B>CG</B></font>T<font color="#A070EE"><B>TG</B></font>GGGTTT<font color="#FF9541"><B>C</B></font>
+[5]seq_E.fasta        TT<font color="#A070EE"><B>TG</B></font>GGAT<font color="#A070EE"><B>TG</B></font>TTTTTTTTAG<font color="#00D8AF"><B>C</B></font>AGGTGAAGTTT<font color="#A070EE"><B>TG</B></font>TTATGGATTTTTTT<font color="#A070EE"><B>TG</B></font>T<font color="#A070EE"><B>TG</B></font>GGGTTT<font color="#A070EE"><B>T</B></font>
+[6]seq_H.fasta        TT<font color="#FF9541"><B>CG</B></font>GGAT<font color="#A070EE"><B>TG</B></font>T-TTTTTTAGTAGGTGAAGTTT<font color="#A070EE"><B>TG</B></font>TTATGGATTTTTTT<font color="#A070EE"><B>TG</B></font>T<font color="#A070EE"><B>TG</B></font>GGGTTT<font color="#FF9541"><B>C</B></font>
+[7]seq_I.fasta        TT<font color="#A070EE"><B>TG</B></font>GGAT<font color="#A070EE"><B>TG</B></font>T-TTTTTTAGTAGGTGAAGTTT<font color="#A070EE"><B>TG</B></font>TTATGGATTTTTTT<font color="#A070EE"><B>TG</B></font>T<font color="#A070EE"><B>TG</B></font>GGGTTT<font color="#A070EE"><B>T</B></font>
+
+Genomic_Sequence      <font color="#FF9541"><B>G</B></font>-<font color="#FF9541"><B>CG</B></font>TTGTTT<font color="#FF9541"><B>CG</B></font>TT<font color="#FF9541"><B>CG</B></font>TTTTTAGT<font color="#FF9541"><B>CG</B></font>TTGG-TTAAGGT<font color="#FF9541"><B>CG</B></font><font color="#FF9541"><B>CG</B></font>GT<font color="#FF9541"><B>CG</B></font><font color="#FF9541"><B>CG</B></font>TAGG<font color="#FF9541"><B>CG</B></font>TAGTGT
+[2]seq_A.fasta        <font color="#FF9541"><B>G</B></font>-<font color="#A070EE"><B>TG</B></font>TTGTTT<font color="#A070EE"><B>TG</B></font>TT<font color="#FF9541"><B>CG</B></font>TTTTTTGT<font color="#A070EE"><B>TG</B></font>TTGG-TTAA----G-GAA-AAAAAAAAATAGTGT
+[3]seq_B.fasta        <font color="#A070EE"><B>G</B></font>-<font color="#A070EE"><B>TG</B></font>TTGTTT<font color="#A070EE"><B>TG</B></font>TT<font color="#A070EE"><B>TG</B></font>TTTTTAGT<font color="#A070EE"><B>TG</B></font>TTGG-TTAAGGT<font color="#A070EE"><B>TG</B></font><font color="#A070EE"><B>TG</B></font>GT<font color="#A070EE"><B>TG</B></font><font color="#A070EE"><B>TG</B></font>TAGC<font color="#A070EE"><B>TG</B></font>TAGTGT
+[4]seq_C.fasta        <font color="#FF9541"><B>G</B></font>-<font color="#A070EE"><B>TG</B></font>TTGTTT<font color="#A070EE"><B>TG</B></font>TT<font color="#FF9541"><B>CG</B></font>TTTTTAGT<font color="#FF9541"><B>CG</B></font>TTGG-TTAAGGT<font color="#A070EE"><B>TG</B></font><font color="#FF9541"><B>CG</B></font>GT<font color="#FF9541"><B>CG</B></font><font color="#FF9541"><B>CG</B></font>TAGG<font color="#FF9541"><B>CG</B></font>TAGTGT
+[5]seq_E.fasta        <font color="#A070EE"><B>G</B></font>A<font color="#A070EE"><B>TG</B></font>TTGTTT<font color="#FF9541"><B>CG</B></font>TT<font color="#A070EE"><B>TG</B></font>TTT<font color="#00D8AF"><B>C</B></font>TAGT<font color="#A070EE"><B>TG</B></font>TTGGTTTAAGGT<font color="#FF9541"><B>CG</B></font><font color="#A070EE"><B>TG</B></font>GT<font color="#A070EE"><B>TG</B></font><font color="#A070EE"><B>TG</B></font>TAGG<font color="#FF9541"><B>CG</B></font>TAGTGT
+[6]seq_H.fasta        <font color="#FF9541"><B>G</B></font>-<font color="#A070EE"><B>TG</B></font>TTGTTT<font color="#A070EE"><B>TG</B></font>TT<font color="#FF9541"><B>CG</B></font>TTTTTTGT<font color="#A070EE"><B>TG</B></font>TTGG-TTAAGGT<font color="#FF9541"><B>CG</B></font><font color="#FF9541"><B>CG</B></font>GT<font color="#FF9541"><B>CG</B></font><font color="#FF9541"><B>CG</B></font>TAGG<font color="#FF9541"><B>CG</B></font>TAGTGT
+[7]seq_I.fasta        <font color="#A070EE"><B>G</B></font>-<font color="#A070EE"><B>TG</B></font>TTGTTT<font color="#A070EE"><B>TG</B></font>TT<font color="#A070EE"><B>TG</B></font>TTTTTAGT<font color="#A070EE"><B>TG</B></font>TTGG-TTAAGGT<font color="#A070EE"><B>TG</B></font><font color="#A070EE"><B>TG</B></font>GT<font color="#A070EE"><B>TG</B></font><font color="#A070EE"><B>TG</B></font>TAGG<font color="#A070EE"><B>TG</B></font>TAGTGT
+
+Genomic_Sequence      <font color="#FF9541"><B>CG</B></font><font color="#FF9541"><B>CG</B></font>TTT<font color="#FF9541"><B>CG</B></font>T<font color="#FF9541"><B>CG</B></font>T<font color="#FF9541"><B>CG</B></font>TTT<font color="#FF9541"><B>CG</B></font>TTTTGTT<font color="#FF9541"><B>CG</B></font>T<font color="#FF9541"><B>CG</B></font>TTG<font color="#FF9541"><B>CG</B></font>GAAGG<font color="#FF9541"><B>CG</B></font>T-<font color="#FF9541"><B>CG</B></font><font color="#FF9541"><B>CG</B></font><font color="#FF9541"><B>CG</B></font>TAGTAA<font color="#FF9541"><B>CG</B></font>
+[2]seq_A.fasta        <font color="#FF9541"><B>CG</B></font><font color="#FF9541"><B>CG</B></font>TTT<font color="#FF9541"><B>CG</B></font>T<font color="#FF9541"><B>CG</B></font>T<font color="#FF9541"><B>CG</B></font>TTTAGTTTTGTT<font color="#FF9541"><B>CG</B></font>TGGTTG<font color="#FF9541"><B>CG</B></font>GAAGG<font color="#FF9541"><B>CG</B></font>GT<font color="#A070EE"><B>TG</B></font><font color="#FF9541"><B>CG</B></font><font color="#FF9541"><B>CG</B></font>TAGTAA<font color="#FF9541"><B>CG</B></font>
+[3]seq_B.fasta        <font color="#A070EE"><B>TG</B></font><font color="#A070EE"><B>TG</B></font>TTT<font color="#A070EE"><B>TG</B></font>T<font color="#FF9541"><B>CG</B></font>T<font color="#A070EE"><B>TG</B></font>TTT<font color="#A070EE"><B>TG</B></font>TTTTGTT<font color="#A070EE"><B>TG</B></font>T<font color="#A070EE"><B>TG</B></font>TTG<font color="#A070EE"><B>TG</B></font>GATGG<font color="#A070EE"><B>TG</B></font>T-<font color="#A070EE"><B>TG</B></font><font color="#A070EE"><B>TG</B></font><font color="#A070EE"><B>TG</B></font>TAG<font color="#00D8AF"><B>C</B></font>AG<font color="#A070EE"><B>TG</B></font>
+[4]seq_C.fasta        <font color="#FF9541"><B>CG</B></font><font color="#FF9541"><B>CG</B></font>TT<font color="#00D8AF"><B>C</B></font><font color="#FF9541"><B>CG</B></font>T<font color="#FF9541"><B>CG</B></font>T<font color="#FF9541"><B>CG</B></font>TTT<font color="#FF9541"><B>CG</B></font>TTTTGTT<font color="#FF9541"><B>CG</B></font>T<font color="#A070EE"><B>TG</B></font>TTG<font color="#A070EE"><B>TG</B></font>GAAGG<font color="#A070EE"><B>TG</B></font>T-<font color="#A070EE"><B>TG</B></font><font color="#FF9541"><B>CG</B></font><font color="#FF9541"><B>CG</B></font>TAGTAA<font color="#A070EE"><B>TG</B></font>
+[5]seq_E.fasta        <font color="#FF9541"><B>CG</B></font><font color="#FF9541"><B>CG</B></font>TTT<font color="#FF9541"><B>CG</B></font>T<font color="#FF9541"><B>CG</B></font>T<font color="#A070EE"><B>TG</B></font>TTT<font color="#A070EE"><B>TG</B></font>TTTTGTT<font color="#FF9541"><B>CG</B></font>T<font color="#FF9541"><B>CG</B></font>TTG<font color="#FF9541"><B>CG</B></font>GAAGG<font color="#A070EE"><B>TG</B></font>T-<font color="#A070EE"><B>TG</B></font><font color="#A070EE"><B>TG</B></font><font color="#FF9541"><B>CG</B></font>TAG<font color="#00D8AF"><B>C</B></font>AA<font color="#A070EE"><B>TG</B></font>
+[6]seq_H.fasta        <font color="#FF9541"><B>CG</B></font><font color="#FF9541"><B>CG</B></font>TTT<font color="#FF9541"><B>CG</B></font>T<font color="#FF9541"><B>CG</B></font>T<font color="#FF9541"><B>CG</B></font>TTT<font color="#A070EE"><B>TG</B></font>TTTTGTT<font color="#FF9541"><B>CG</B></font>T<font color="#FF9541"><B>CG</B></font>TTG<font color="#FF9541"><B>CG</B></font>GAAGG<font color="#FF9541"><B>CG</B></font>GT<font color="#A070EE"><B>TG</B></font><font color="#FF9541"><B>CG</B></font><font color="#FF9541"><B>CG</B></font>TAGTAA<font color="#FF9541"><B>CG</B></font>
+[7]seq_I.fasta        <font color="#A070EE"><B>TG</B></font><font color="#A070EE"><B>TG</B></font>TTT<font color="#A070EE"><B>TG</B></font>T<font color="#A070EE"><B>TG</B></font>T<font color="#A070EE"><B>TG</B></font>TTT<font color="#A070EE"><B>TG</B></font>TTTTGTT<font color="#A070EE"><B>TG</B></font>T<font color="#A070EE"><B>TG</B></font>TTG<font color="#A070EE"><B>TG</B></font>GAAGG<font color="#A070EE"><B>TG</B></font>T-<font color="#A070EE"><B>TG</B></font><font color="#A070EE"><B>TG</B></font><font color="#A070EE"><B>TG</B></font>TAGTAA<font color="#A070EE"><B>TG</B></font>
+
+Genomic_Sequence      <font color="#FF9541"><B>CG</B></font>TA-TTTTTTTTTTAGGAATT<font color="#FF9541"><B>CG</B></font><font color="#FF9541"><B>CG</B></font>GAGGGAG<font color="#FF9541"><B>CG</B></font>TAGGTT<font color="#FF9541"><B>CG</B></font>AAGAGTTTTTGGA<font color="#FF9541"><B>CG</B></font>
+[2]seq_A.fasta        <font color="#A070EE"><B>TG</B></font>TA-TTTTTTTTTTAGGAATTAG<font color="#A070EE"><B>TG</B></font>GAGGGAG<font color="#FF9541"><B>CG</B></font>TAGGTT<font color="#FF9541"><B>CG</B></font>AAGAGTTTTTGGA<font color="#FF9541"><B>CG</B></font>
+[3]seq_B.fasta        <font color="#A070EE"><B>TG</B></font>TA-TTTTTTTTT<font color="#00D8AF"><B>C</B></font>AGGAATT<font color="#A070EE"><B>TG</B></font><font color="#A070EE"><B>TG</B></font>GAGGGAG<font color="#A070EE"><B>TG</B></font>TAGGTT<font color="#A070EE"><B>TG</B></font>AAGAG<font color="#00D8AF"><B>C</B></font>TTTTGGA<font color="#A070EE"><B>TG</B></font>
+[4]seq_C.fasta        <font color="#FF9541"><B>CG</B></font>TA-TTTTTTTTTTAGGAATT<font color="#FF9541"><B>CG</B></font><font color="#A070EE"><B>TG</B></font>GAGGGAG<font color="#A070EE"><B>TG</B></font>TAGGTT<font color="#FF9541"><B>CG</B></font>AAGAGTTTTTGGA<font color="#A070EE"><B>TG</B></font>
+[5]seq_E.fasta        <font color="#FF9541"><B>CG</B></font>TA-TTTTTTTTTTAGGAATT<font color="#A070EE"><B>TG</B></font><font color="#A070EE"><B>TG</B></font>GAGGGAG<font color="#A070EE"><B>TG</B></font>TAGGTT<font color="#A070EE"><B>TG</B></font>AAGAGTTTTTGGA<font color="#A070EE"><B>TG</B></font>
+[6]seq_H.fasta        <font color="#A070EE"><B>TG</B></font>TA-TTTTTTTTTTAGGAATT<font color="#A070EE"><B>TG</B></font><font color="#A070EE"><B>TG</B></font>GAGGGAG<font color="#FF9541"><B>CG</B></font>TAGGTT<font color="#FF9541"><B>CG</B></font>AAGAGTTTTTGGA<font color="#FF9541"><B>CG</B></font>
+[7]seq_I.fasta        <font color="#A070EE"><B>TG</B></font>TATTTTTTTTTTTAGGAATT<font color="#A070EE"><B>TG</B></font><font color="#A070EE"><B>TG</B></font>GAGGGAG<font color="#A070EE"><B>TG</B></font>TAGGTT<font color="#A070EE"><B>TG</B></font>AAGAGTTTTTGGA<font color="#A070EE"><B>TG</B></font></pre>
+<hr>
+<h2>Derived Methylation Data</h2>
+<pre>
+Genomic Sequence with numbered CpG dinucleotides:
+                                                                                  1            1 1   1 1     1       1 1    1  1  2    2        2  2    2      2  2 2 2       2 3                    3 3        3       3              3 
+  1     2                      3               4  5       6 7       8   9         0            1 2   3 4     5       6 7    8  9  0    1        2  3    4      5  6 7 8       9 0                    1 2        3       4              5 
+CCCGGGATCGCTCTCCCAGCAGGTGAAGCCTCGCCATGGACCCTCCCCGTCGGGGCCCCGCGCTGCCCCGCCCGCCCCCAGCCGCTGGCCAAGGCCGCGGTCGCGCAGGCGCAGTGCCGCGTCCCGCCGCCGCCCCGCCCTGCCCGTCGCTGCGGAAGGCGCCGCGCGCAGCAACGCGCACTTCCTCTCCAGGAATCCGCGGAGGGAGCGCAGGCTCGAAGAGCTCCTGGACG
+
+Methylation data for these CpG dinucleotides (1=methylated, 0=unmethylated, x=unknown):
+Sequence_Identifier	CpG_1	CpG_2	CpG_3	CpG_4	CpG_5	CpG_6	CpG_7	CpG_8	CpG_9	CpG_10	CpG_11	CpG_12	CpG_13	CpG_14	CpG_15	CpG_16	CpG_17	CpG_18	CpG_19	CpG_20	CpG_21	CpG_22	CpG_23	CpG_24	CpG_25	CpG_26	CpG_27	CpG_28	CpG_29	CpG_30	CpG_31	CpG_32	CpG_33	CpG_34	CpG_35
+[2]seq_A.fasta     	1	0	0	0	0	1	0	0	1	0	x	x	x	x	x	1	1	1	1	1	x	1	x	1	1	0	1	1	1	0	x	0	1	1	1
+[3]seq_B.fasta     	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+[4]seq_C.fasta     	1	1	0	1	0	1	0	0	1	1	0	1	1	1	1	1	1	1	1	1	1	1	0	0	0	0	1	1	0	1	1	0	0	1	0
+[5]seq_E.fasta     	0	0	0	0	0	0	0	1	0	0	1	0	0	0	1	1	1	1	1	0	0	1	1	1	0	0	0	1	0	1	0	0	0	0	0
+[6]seq_H.fasta     	1	0	0	0	0	1	0	0	1	0	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	0	1	1	1	0	0	0	1	1	1
+[7]seq_I.fasta     	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+</pre>
+<i>Explanation: each '1' corresponds to a methylated C, a '0' corresponds to an unmethylated C, and an 'x' corresponds to a non-CpG position.</i><br><br>
+<hr>
+<h2>Methylation Statistics</h2>
+<pre>DNA methylation summary over all sequences
+Unmethylated CpGs:	0.605 (127 cases)
+Methylated CpGs:  	0.357 (75 cases)
+CpGs not present: 	0.038 (8 cases)
+</pre>
+<pre>
+CpG position statistics per column (missing values e.g. due to sequencing errors are excluded from this analysis)
+Position 	CpG_1	CpG_2	CpG_3	CpG_4	CpG_5	CpG_6	CpG_7	CpG_8	CpG_9	CpG_10	CpG_11	CpG_12	CpG_13	CpG_14	CpG_15	CpG_16	CpG_17	CpG_18	CpG_19	CpG_20	CpG_21	CpG_22	CpG_23	CpG_24	CpG_25	CpG_26	CpG_27	CpG_28	CpG_29	CpG_30	CpG_31	CpG_32	CpG_33	CpG_34	CpG_35
+Average  	0.500	0.167	0.000	0.167	0.000	0.500	0.000	0.167	0.500	0.167	0.400	0.400	0.400	0.400	0.600	0.667	0.667	0.667	0.833	0.500	0.200	0.667	0.400	0.500	0.333	0.000	0.500	0.667	0.333	0.333	0.200	0.000	0.333	0.500	0.333
+Std. Dev.	0.548	0.408	0.000	0.408	0.000	0.548	0.000	0.408	0.548	0.408	0.548	0.548	0.548	0.548	0.548	0.516	0.516	0.516	0.408	0.548	0.447	0.516	0.548	0.548	0.516	0.000	0.548	0.516	0.516	0.516	0.447	0.000	0.516	0.548	0.516</pre>
+<pre>Sequence clone statistics per row (missing values e.g. due to sequencing errors are excluded from this analysis)
+Sequence_Identifier	Average	Std. Dev.
+[2]seq_A.fasta     	0.630	0.242
+[3]seq_B.fasta     	0.029	0.029
+[4]seq_C.fasta     	0.629	0.240
+[5]seq_E.fasta     	0.343	0.232
+[6]seq_H.fasta     	0.657	0.232
+[7]seq_I.fasta     	0.000	0.000
+</pre>
+<hr>
+<h2>Lollipop-style Representation of Methylation Data</h2>
+<img src = "Correct_Result.html.Diagram1.png"><br><a href="Correct_Result.html.Diagram1.svg">Save SVG version (vector graphics)</a> or <a href="Correct_Result.html.Diagram1.png">Save PNG version</a><br><i>Explanation: Filled (black) circles correspond to methylated Cs, unfilled (white) circles correspond to unmethylated Cs, and small vertical lines without a circle correspond to missing values (e.g. caused by sequencing errors). <br>This image is scaled to the size of the web browser window. To zoom in please increase the window size or open the picture into an image viewer. The image resolution and other diagram parameters can be changed in BiQ Analyzer's configuration editor. Alternatively, you can copy the machine-readable results from below and paste them into the web-based <ahref='http://biq-analyzer.bioinf.mpi-inf.mpg.de/tools/MethylationDiagrams/index.php'>diagram calculator</a> to generate custom diagrams online.</i><br><br>
+<hr>
+<h2>Aggregated Representation of Methylation Data</h2>
+<img src = "Correct_Result.html.Diagram2.png"><br><br><a href="Correct_Result.html.Diagram2.svg">Save SVG version (vector graphics)</a> or <a href="Correct_Result.html.Diagram2.png">Save PNG version</a><br><i>Explanation: Each box corresponds to one CpG position in the genomic sequence. The colored bars summarize the methylation states of all sequences at that position. <br>This image is scaled to the size of the web browser window. To zoom in please increase the window size or open the picture into an image viewer. The image resolution and other diagram parameters can be changed in BiQ Analyzer's configuration editor. Alternatively, you can copy the machine-readable results from below and paste them into the web-based <ahref='http://biq-analyzer.bioinf.mpi-inf.mpg.de/tools/MethylationDiagrams/index.php'>diagram calculator</a> to generate custom diagrams online.</i><br><br>
+<hr>
+<h2>Results in Machine-readable Format</h2>
+<pre>
+>Genomic sequence: CCCGGGATCGCTCTCCCAGCAGGTGAAGCCTCGCCATGGACCCTCCCCGTCGGGGCCCCGCGCTGCCCCGCCCGCCCCCAGCCGCTGGCCAAGGCCGCGGTCGCGCAGGCGCAGTGCCGCGTCCCGCCGCCGCCCCGCCCTGCCCGTCGCTGCGGAAGGCGCCGCGCGCAGCAACGCGCACTTCCTCTCCAGGAATCCGCGGAGGGAGCGCAGGCTCGAAGAGCTCCTGGACG
+[2]seq_A.fasta	2	1	4	0	21	0	14	0	1	0	6	1	0	0	6	0	2	1	8	0	11	2	0	2	2	2	0	2	4	2	6	1	0	1	3	1	1	1	1	1	3	2	7	1	1	2	3	1	5	1	1	0	0	1	0	1	6	1	0	0	19	2	0	0	7	1	6	1	13	1	0
+[3]seq_B.fasta	2	0	4	0	21	0	14	0	1	0	6	0	0	0	6	0	2	0	8	0	11	0	0	0	2	0	0	0	4	0	6	0	0	0	3	0	1	1	1	0	3	0	7	0	1	0	3	0	5	0	1	0	0	0	0	0	6	0	0	0	19	0	0	0	7	0	6	0	13	0	0
+[4]seq_C.fasta	2	1	4	1	21	0	14	1	1	0	6	1	0	0	6	0	2	1	8	1	11	0	0	1	2	1	0	1	4	1	6	1	0	1	3	1	1	1	1	1	3	1	7	1	1	0	3	0	5	0	1	0	0	1	0	1	6	0	0	1	19	1	0	0	7	0	6	1	13	0	0
+[5]seq_E.fasta	2	0	4	0	21	0	14	0	1	0	6	0	0	0	6	1	2	0	8	0	11	1	0	0	2	0	0	0	4	1	6	1	0	1	3	1	1	1	1	0	3	0	7	1	1	1	3	1	5	0	1	0	0	0	0	1	6	0	0	1	19	0	0	0	7	0	6	0	13	0	0
+[6]seq_H.fasta	2	1	4	0	21	0	14	0	1	0	6	1	0	0	6	0	2	1	8	0	11	1	0	1	2	1	0	1	4	1	6	1	0	1	3	1	1	1	1	1	3	0	7	1	1	1	3	1	5	1	1	0	0	1	0	1	6	1	0	0	19	0	0	0	7	1	6	1	13	1	0
+[7]seq_I.fasta	2	0	4	0	21	0	14	0	1	0	6	0	0	0	6	0	2	0	8	0	11	0	0	0	2	0	0	0	4	0	6	0	0	0	3	0	1	0	1	0	3	0	7	0	1	0	3	0	5	0	1	0	0	0	0	0	6	0	0	0	19	0	0	0	7	0	6	0	13	0	0
+</pre>
+<i>Explanation: This section contains essentially the same information as the lollipop diagrams, but in a format that can be readily processed by computer programs. For example, if you need the lollipop diagram at a higher resolution or with different line breaks, then you can go to the <a href="http://biq-analyzer.bioinf.mpi-inf.mpg.de/tools/MethylationDiagrams/index.php">BiQ Analyzer Diagrams website</a>, paste the information above, and generate a new diagram without having to run through the entire quality control procedure again. The format is as follows: the first line specifies the genomic sequence and each of the following lines represents DNA methylation information for one clone (the first tab-separated value is the sequence name, the next is the distance in base pairs until the first CpG, next comes the methylation state of the first CpG, then the distance to the next CpG, and so on).</i><br><br>
+<hr><i>Generated with BiQ Analyzer v2.0 - (c) Christoph Bock 2008</i>
+</body>
+</html>
