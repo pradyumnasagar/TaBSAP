@@ -1,0 +1,1 @@
+upload sample fastq file here, name should be numerical ie. 1.fastq 2.fastq 3.fastq etc.
