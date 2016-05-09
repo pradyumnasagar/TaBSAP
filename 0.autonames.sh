@@ -26,6 +26,7 @@ mrg=$out/mergedData
 name=$out/name
 #Merged files with Gene names
 
+chmod -R 0777 *
 
 echo creating required directories 
 mkdir -p fastq/
