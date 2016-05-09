@@ -26,8 +26,10 @@ mrg=$out/mergedData
 name=$out/name
 #Merged files with Gene names
 
-unzip $tools/ngm.zip
+cd $tools
+unzip ngm.zip 
 rm -f $tools/ngm.zip
+cd $out
 chmod -R 0777 *
 
 echo creating required directories 
