@@ -19,9 +19,6 @@ nohup java -jar $tools/picard-tools-1.119/SamToFastq.jar I= $rcuc.unmapped.sam F
 done
 
 
-
-
-
 mv *.bam $out/rcunconverted/bam
 cd $out/rcunconverted/bam
 for fname in *rcconverted.unmapped.fastq.rcunconverted.bam; do

@@ -69,6 +69,7 @@ done
 
 ######################## rcunconverted
 
+
 cd $out/rcunconverted/mapped
 ls -1 *.sam | sort -V | sed 's/^#.*//' > ../../listdump/rcuc.txt
 ls *.sam | wc -l | sed 's/^#.*//' > ../../listdump/no.txt

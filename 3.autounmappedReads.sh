@@ -2,6 +2,7 @@
 
 source 0.autonames.sh
 cd $con
+
 ls -1 *.bam | sort -V | sed 's/^#.*//' > ../listdump/bam.txt
 while read tests ; do testss=$tests ; done < ../listdump/file.txt
 for ((i=1; i<=$testss; i++))

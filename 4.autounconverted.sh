@@ -11,6 +11,7 @@ ucbam=$(cat ../../listdump/ucbam.txt | cut -d  " " -f1 | sed -n ''$i'p')
 
 nohup $tools/NextGenMap-0.4.12/Cibiv-NextGenMap-ce00bcf/bin/ngm-0.4.12/ngm -q $out/unconverted/fastq/$ucbam -r $refs/uc.fa -b -o $ucbam.unconverted.bam --bs-mapping
 
+
 $tools/samtools-1.2/samtools view -f4 $ucbam.unconverted.bam > $ucbam.unmapped.sam
 $tools/samtools-1.2/samtools view -F4 $ucbam.unconverted.bam > $ucbam.mapped.sam
 java -jar $tools/picard-tools-1.119/SamToFastq.jar I= $ucbam.unmapped.sam F= $ucbam.unconverted.unmapped.fastq
