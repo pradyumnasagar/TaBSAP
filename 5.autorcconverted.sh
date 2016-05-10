@@ -14,8 +14,8 @@ cd $out/rcconverted/fastq
 
 nohup $tools/NextGenMap-0.4.12/Cibiv-NextGenMap-ce00bcf/bin/ngm-0.4.12/ngm -q $out/rcconverted/fastq/$crcbam -r $refs/rcc.fa -b -o $crcbam.rcconverted.bam --bs-mapping
 
-samtools view -f4 $crcbam.rcconverted.bam > $crcbam.unmapped.sam
-samtools view -F4 $crcbam.rcconverted.bam > $crcbam.mapped.sam
+$tools/samtools-1.2/samtools view -f4 $crcbam.rcconverted.bam > $crcbam.unmapped.sam
+$tools/samtools-1.2/samtools view -F4 $crcbam.rcconverted.bam > $crcbam.mapped.sam
 nohup java -jar $tools/picard-tools-1.119/SamToFastq.jar I= $crcbam.unmapped.sam F= $crcbam.rcconverted.unmapped.fastq
 
 done

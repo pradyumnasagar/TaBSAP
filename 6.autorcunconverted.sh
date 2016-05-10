@@ -13,8 +13,8 @@ rcuc=$(cat ../../listdump/rcuc.txt | cut -d  " " -f1 | sed -n ''$i'p')
 
 nohup $tools/NextGenMap-0.4.12/Cibiv-NextGenMap-ce00bcf/bin/ngm-0.4.12/ngm -q $out/rcunconverted/fastq/$rcuc -r $refs/rcuc.fa -b -o $rcuc.rcunconverted.bam --bs-mapping
 
-samtools view -f4 $rcuc.rcunconverted.bam > $rcuc.unmapped.sam
-samtools view -F4 $rcuc.rcunconverted.bam > $rcuc.mapped.sam
+$tools/samtools-1.2/samtools view -f4 $rcuc.rcunconverted.bam > $rcuc.unmapped.sam
+$tools/samtools-1.2/samtools view -F4 $rcuc.rcunconverted.bam > $rcuc.mapped.sam
 nohup java -jar $tools/picard-tools-1.119/SamToFastq.jar I= $rcuc.unmapped.sam F= $rcuc.rcunconverted.unmapped.fastq
 done
 

@@ -61,7 +61,7 @@ rcc1=$(cat ../../listdump/rcc1.txt | cut -d  " " -f1 | sed -n ''$i'p')
 mkdir -p $out/rcconverted/mapped/$rcc1
 
 cat $rcc | awk '{OFS="\t"; print ">"$3"\n"$10}' > $rcc1.rcconverted.mapped.fasta
-fastx_reverse_complement -i $rcc1.rcconverted.mapped.fasta -o $rcc1.rcconverted.complement.mapped.fasta
+$tools/fastx/fastx_reverse_complement -i $rcc1.rcconverted.mapped.fasta -o $rcc1.rcconverted.complement.mapped.fasta
 
 mv $rcc1.rcconverted.complement.mapped.fasta $rcc1
 
@@ -83,7 +83,7 @@ rcuc1=$(cat ../../listdump/rcuc1.txt | cut -d  " " -f1 | sed -n ''$i'p')
 mkdir -p $out/rcunconverted/mapped/$rcuc1
 
 cat $rcuc | awk '{OFS="\t"; print ">"$3"\n"$10}' > $rcuc1.rcunconverted.mapped.fasta
-fastx_reverse_complement -i $rcuc1.rcunconverted.mapped.fasta -o $rcuc1.rcunconverted.complement.mapped.fasta
+$tools/fastx/fastx_reverse_complement -i $rcuc1.rcunconverted.mapped.fasta -o $rcuc1.rcunconverted.complement.mapped.fasta
 
 mv $rcuc1.rcunconverted.complement.mapped.fasta $rcuc1
 
