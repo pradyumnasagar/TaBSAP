@@ -6,7 +6,7 @@ cp ref/uc.fa biqref/uv.fa
 cd biqref
 echo folder
 
-fasta_formatter -i uv.fa -o uc.fa
+$tools/fastx/fasta_formatter -i uv.fa -o uc.fa
 echo format
 
 awk '/^>/{s=++d".fa"} {print > s}' uc.fa
