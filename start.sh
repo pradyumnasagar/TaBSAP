@@ -2,8 +2,6 @@
 cd fastq
 counts=$(ls *.fastq)
 counts=$(echo "$counts" | wc -l)
-#JOBNR=$(jobs -p); JOBNR=$(echo "$JOBNR" | wc -w)
-
 cd ../
 echo -n "would you like to group your samples into catogories [eg. normal, tumor](y/n)? "
 echo ""
