@@ -7,6 +7,8 @@ annotation_row = data.frame(
                 )
 rownames(annotation_row) = paste("sample", 1:totll, sep = "")
 pdf("mappp.pdf")
+
+pheatmap(t2, cluster_rows=TRUE, cluster_cols=FALSE, annotation_row = annotation_row, fontsize=8)
 dev.off()
 q()
 
