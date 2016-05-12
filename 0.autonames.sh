@@ -1,5 +1,5 @@
 #list of diretories:
-out=/home/pradyumna/tabs
+out=/home/god/TaBSAP-master
 #Main folder where scripts are located[change it with current path where script is present]
 refs=$out/ref
 #Reference files folder
