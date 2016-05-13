@@ -72,7 +72,7 @@ echo "inapropropriate input"
 cat no.txt
 fi
 else 
-echo "continuing without groups"
+echo "Starting without groups"
 ./run.sh
 fi
 

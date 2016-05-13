@@ -27,7 +27,12 @@ name=$out/name
 #Merged files with Gene names
 
 cd $tools
+if [ -f ngm.zip ]
+then
 unzip ngm.zip 
+else
+echo ""
+fi
 rm -f $tools/ngm.zip
 cd $out
 chmod -R 0777 *
