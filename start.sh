@@ -26,7 +26,9 @@ read -p "Enter second category : " name2
 echo -e "\"$name1\",\"$name2\"" > listdump/grpname.txt
 echo "there are $counts files to be analysed"
 read -p "How many files belongs to category $name1 ? " nameno1
+echo "The first $nameno1 files are categorised as $name1"
 read -p "How many files belongs to category $name2 ? " nameno2
+echo "The rest $nameno2 files are categorised as $name2"
 echo -e "$nameno1,$nameno2" > listdump/grpnameno.txt
 ./run.sh
 
@@ -37,8 +39,11 @@ read -p "Enter third category : " name3
 echo "\"$name1\",\"$name2\",\"$name3\"" > listdump/grpname.txt
 echo "there are $counts files to be analysed"
 read -p "How many files belongs to category $name1 ? " nameno1
+echo "The first $nameno1 files are categorised as $name1"
 read -p "How many files belongs to category $name2 ? " nameno2
+echo "The next $nameno2 files are categorised as $name2"
 read -p "How many files belongs to category $name3 ? " nameno3
+echo "The remaining $nameno3 files are categorised as $name3"
 echo -e "$nameno1,$nameno2,$nameno3" > listdump/grpnameno.txt
 ./run.sh
 
@@ -50,9 +55,13 @@ read -p "Enter fourth category : " name4
 echo "\"$name1\",\"$name2\",\"$name3\",\"$name4\"" > listdump/grpname.txt
 echo "there are $counts files to be analysed"
 read -p "How many files belongs to category $name1 ? " nameno1
+echo "The first $nameno1 files are categorised as $name1"
 read -p "How many files belongs to category $name2 ? " nameno2
+echo "The next $nameno2 files are categorised as $name2"
 read -p "How many files belongs to category $name3 ? " nameno3
+echo "The next $nameno3 files are categorised as $name3"
 read -p "How many files belongs to category $name4 ? " nameno4
+echo "The remaining $nameno4 files are categorised as $name4"
 echo -e "$nameno1,$nameno2,$nameno3,$nameno4" > listdump/grpnameno.txt
 ./run.sh
 
@@ -65,10 +74,15 @@ read -p "Enter fifth category : " name5
 echo "\"$name1\",\"$name2\",\"$name3\",\"$name4\",\"$name5\"" > listdump/grpname.txt
 echo "there are $counts files to be analysed"
 read -p "How many files belongs to category $name1 ? " nameno1
+echo "The first $nameno1 files are categorised as $name1"
 read -p "How many files belongs to category $name2 ? " nameno2
+echo "The next $nameno2 files are categorised as $name2"
 read -p "How many files belongs to category $name3 ? " nameno3
+echo "The next $nameno3 files are categorised as $name3"
 read -p "How many files belongs to category $name4 ? " nameno4
+echo "The fnext $nameno4 files are categorised as $name4"
 read -p "How many files belongs to category $name5 ? " nameno5
+echo "The remaining $nameno5 files are categorised as $name5"
 echo -e "$nameno1,$nameno2,$nameno3,$nameno4,$nameno5" > listdump/grpnameno.txt
 ./run.sh
 
