@@ -8,12 +8,13 @@ while read tests ; do testss=$tests ; done < ../../listdump/file.txt
 for ((i=1; i<=$testss; i++))
 do
 ucbam=$(cat ../../listdump/ucbam.txt | cut -d  " " -f1 | sed -n ''$i'p')
-
+echo "mapping unmapped reads to Unconverted reference"
 nohup $tools/NextGenMap-0.4.12/Cibiv-NextGenMap-ce00bcf/bin/ngm-0.4.12/ngm -q $out/unconverted/fastq/$ucbam -r $refs/uc.fa -b -o $ucbam.unconverted.bam --bs-mapping
 
-
+echo "separating unmapped reads"
 $tools/samtools-1.2/samtools view -f4 $ucbam.unconverted.bam > $ucbam.unmapped.sam
 $tools/samtools-1.2/samtools view -F4 $ucbam.unconverted.bam > $ucbam.mapped.sam
+echo "exporting fastq from unmapped files"
 java -jar $tools/picard-tools-1.119/SamToFastq.jar I= $ucbam.unmapped.sam F= $ucbam.unconverted.unmapped.fastq
 
 done

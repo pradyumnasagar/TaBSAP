@@ -10,7 +10,7 @@ while read rcucnoo ; do rcucno=$rcucnoo ; done < ../../listdump/rcucno.txt
 for ((i=1; i<=$rcucno; i++))
 do
 rcuc=$(cat ../../listdump/rcuc.txt | cut -d  " " -f1 | sed -n ''$i'p')
-
+echo ""
 nohup $tools/NextGenMap-0.4.12/Cibiv-NextGenMap-ce00bcf/bin/ngm-0.4.12/ngm -q $out/rcunconverted/fastq/$rcuc -r $refs/rcuc.fa -b -o $rcuc.rcunconverted.bam --bs-mapping
 
 $tools/samtools-1.2/samtools view -f4 $rcuc.rcunconverted.bam > $rcuc.unmapped.sam

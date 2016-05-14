@@ -8,10 +8,12 @@ while read tests ; do testss=$tests ; done < ../listdump/file.txt
 for ((i=1; i<=$testss; i++))
 do
 bam=$(cat ../listdump/bam.txt | cut -d  " " -f1 | sed -n ''$i'p')
+echo "Saperating mapped reads and unmapped reads" 
 $tools/samtools-1.2/samtools view -f4 $bam > $bam.unmapped.sam
 $tools/samtools-1.2/samtools view -F4 $bam > $bam.mapped.sam
 ls -1 *bam | sort -V | sed 's/^#.*//' > ../listdump/pica.txt
 pica=$(cat ../listdump/pica.txt | cut -d  " " -f1 | sed -n ''$i'p')
+echo "extracting and creating fastq file from unmapped reads"
 java -jar $tools/picard-tools-1.119/SamToFastq.jar I= $pica.unmapped.sam F= $pica.converted.unmapped.fastq
 done
 

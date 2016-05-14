@@ -11,11 +11,12 @@ for ((i=1; i<=$rccno; i++))
 do
 crcbam=$(cat ../../listdump/crcbam.txt | cut -d  " " -f1 | sed -n ''$i'p')
 cd $out/rcconverted/fastq
-
+echo "mapping unmapped reads to Bisulfite cnverted reverse complimentary reads"
 nohup $tools/NextGenMap-0.4.12/Cibiv-NextGenMap-ce00bcf/bin/ngm-0.4.12/ngm -q $out/rcconverted/fastq/$crcbam -r $refs/rcc.fa -b -o $crcbam.rcconverted.bam --bs-mapping
-
+echo "separating mapped reads"
 $tools/samtools-1.2/samtools view -f4 $crcbam.rcconverted.bam > $crcbam.unmapped.sam
 $tools/samtools-1.2/samtools view -F4 $crcbam.rcconverted.bam > $crcbam.mapped.sam
+echo "extrating sequence and quality from unmapped reads"
 nohup java -jar $tools/picard-tools-1.119/SamToFastq.jar I= $crcbam.unmapped.sam F= $crcbam.rcconverted.unmapped.fastq
 done
 

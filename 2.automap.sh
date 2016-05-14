@@ -8,14 +8,10 @@ for ((i=1; i<=$testss; i++))
 do 
 cd $faout
 maps=$(cat ../listdump/listout.txt | cut -d  " " -f1 | sed -n ''$i'p')
+echo "Mapping reads with NextGen Map tool"
 nohup $tools/NextGenMap-0.4.12/Cibiv-NextGenMap-ce00bcf/bin/ngm-0.4.12/ngm -q ../faout/$maps -r $refs/converted.fa -b -o ../converted/map$maps.bam --bs-mapping
 echo "Mapping Read "$i" with BS converted reference with NextGenMap "
-
-
-
-
 done
-
 cd $con
 for fname in *fastq.bam; do
    newname=`echo "$fname" | sed 's/fastq.bam/bam/g'`

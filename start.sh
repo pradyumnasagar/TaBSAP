@@ -86,7 +86,6 @@ echo "The remaining $nameno5 files are categorised as $name5"
 echo -e "$nameno1,$nameno2,$nameno3,$nameno4,$nameno5" > listdump/grpnameno.txt
 ./run.sh
 
-
 else 
 echo "inapropropriate input"
 cat no.txt
