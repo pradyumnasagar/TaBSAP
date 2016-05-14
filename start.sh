@@ -1,4 +1,10 @@
 #!/bin/bash
+mkdir -p listdump
+echo "please copy the files to be analysed to fastq folder"
+echo "continue?? (y/n)"
+echo ""
+read yynn
+if echo "$yynn" | grep -iq "^y" ;then
 cd fastq
 counts=$(ls *.fastq)
 counts=$(echo "$counts" | wc -l)
@@ -74,6 +80,11 @@ fi
 else 
 echo "Starting without groups"
 ./run.sh
+ 
+
+fi
+else 
+cat no.txt
 fi
 
 
