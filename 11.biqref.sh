@@ -15,7 +15,7 @@ echo 'split'
 
 rm ccccc.fa
 rm conccc.fa
-echo 'remove'
+#echo 'remove'
 
 #while read name ; do names=$name ; done < ../listdump/genelist.txt
 #for ((i=1; i<=$names; i++))
@@ -29,10 +29,10 @@ echo 'remove'
 #yes '.fa' | sed $(wc -l < ../listdump/biqlist.txt)q | paste '' ../listdump/biqlist.txt -
 sed 's/$/.fa/' ../listdump/genelist.txt > ../listdump/biqlist.txt
 #awk '{print $0, ".fa"}' listdump/genelist.txt > listdump/biqlist.txt
-echo listappend
-for file in *.fa; do read line;  mv -v "${file}" "${line}";  done < ../listdump/biqlist.txt
-rename $'\r' '' *
-echo done
+#echo listappend
+#for file in *.fa; do read line;  mv -v "${file}" "${line}";  done < ../listdump/biqlist.txt
+#rename $'\r' '' *
+#echo done
 #./12.biq.sh
 #for file in *.fa; do read line;  mv -v "${file}" "${line}"; done
 ls | sed 's/^#.*//' > ../listdump/biqref.txt
