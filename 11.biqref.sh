@@ -1,20 +1,21 @@
 #!/bin/bash
 source 0.autonames.sh
-cp ref/uc.fa biqref/uv.fa
+cp ref/converted.fa biqref/ccccc.fa
 
 
 cd biqref
-echo folder
+#echo folder
 
-$tools/fastx/fasta_formatter -i uv.fa -o uc.fa
+$tools/fastx/fasta_formatter -i ccccc.fa -o conccc.fa
 echo format
 
-awk '/^>/{s=++d".fa"} {print > s}' uc.fa
-echo split
+awk '/^>/ {OUT=substr($0,2) ".fa"}; OUT {print >OUT}' conccc.fa
+#awk '/^>/{s=++d".fa"} {print > s}' uc.fa
+echo 'split'
 
-rm uc.fa
-rm uv.fa
-echo remove
+rm ccccc.fa
+rm conccc.fa
+echo 'remove'
 
 #while read name ; do names=$name ; done < ../listdump/genelist.txt
 #for ((i=1; i<=$names; i++))
