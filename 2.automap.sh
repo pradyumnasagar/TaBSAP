@@ -10,6 +10,7 @@ cd $faout
 maps=$(cat ../listdump/listout.txt | cut -d  " " -f1 | sed -n ''$i'p')
 echo "Mapping reads with NextGen Map tool"
 nohup $tools/NextGenMap-0.4.12/Cibiv-NextGenMap-ce00bcf/bin/ngm-0.4.12/ngm -q ../faout/$maps -r $refs/converted.fa -b -o ../converted/map$maps.bam --bs-mapping
+mv nohup.out $maps.txt
 echo "Mapping Read "$i" with BS converted reference with NextGenMap "
 done
 cd $con
