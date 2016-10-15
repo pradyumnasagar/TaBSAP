@@ -1,6 +1,6 @@
 #!/bin/bash
 source 0.autonames.sh
-cp ref/converted.fa biqref/ccccc.fa
+cp ref/uc.fa biqref/ccccc.fa
 
 
 cd biqref
