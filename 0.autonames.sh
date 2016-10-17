@@ -93,6 +93,9 @@ done
 cd $out/
 
 cd ref/
+sed '/^>/! s/CG/X/g'  uc.fa | sed '/^>/! s/C/T/g'  | sed '/^>/! s/X/CG/g' > converted.fa
+$tools/fastx/fastx_reverse_complement  -i uc.fa -o rcuc.fa
+$tools/fastx/fastx_reverse_complement  -i converted.fa -o rcc.fa
 ls -1 *.fa | sort -V | sed 's/^#.*//' > ../listdump/ref.txt
 ref=$(cat ../listdump/ref.txt | cut -d  " " -f1 | sed -n ''1'p')
 grep '>' $ref > ../listdump/glist.txt | sort -t: -n -k2
