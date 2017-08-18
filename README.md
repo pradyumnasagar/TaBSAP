@@ -1,5 +1,5 @@
 # TaBSAP
-##Targeted Bisulfite Sequencing Analysis Pipeline
+## Targeted Bisulfite Sequencing Analysis Pipeline
 
 ## User Guide - v0.0.1
 A pipeline to analyse the data obtained from targeted bisulfite sequencing through ion-torrent platform.
@@ -16,29 +16,29 @@ TaBSAP is a piipeline to map bisulfite treated sequencing reads to a genome of i
 
 -Output gives heatmap with catogories.
 
-##Minimum System Requirements
+## Minimum System Requirements
 
-Project Name: TaBS-Pipe
-
-
-Project Homepage: https://github.com/pradyumnasagar/TaBSAP
+-Project Name: TaBS-Pipe
 
 
-Operating System: 64 bit Unix-like OS/ Linux Distributions(Ubuntu, CentOS, RHEL,etc.),Windows (with cygwin and R in cygwin).
+-Project Homepage: https://github.com/pradyumnasagar/TaBSAP
 
 
-Programming Language: SHELL Scripting.
+-Operating System: 64 bit Unix-like OS/ Linux Distributions(Ubuntu, CentOS, RHEL,etc.),Windows (with cygwin and R in cygwin).
 
 
-Recommended System Requirement: 4GB RAM, 64 bit unix/linux OS.
+-Programming Language: SHELL Scripting.
 
 
-Other Requirements: R Programming, Pheatmap package for R,fastx toolkit(for 32 bit System ), Dos2Unix.
+-Recommended System Requirement: 4GB RAM, 64 bit unix/linux OS.
 
 
-License: MIT License.
+-Other Requirements: R Programming, Pheatmap package for R,fastx toolkit(for 32 bit System ), Dos2Unix.
 
-##Instalation:
+
+-License: MIT License.
+
+## Instalation:
 
 1)Install the requirements 
 
@@ -49,7 +49,7 @@ License: MIT License.
 Open Terminal
 
 
-"#To download
+"# To download
 
 `wget https://github.com/pradyumnasagar/TaBSAP/archive/v1.0.1.zip`
 
@@ -57,7 +57,7 @@ Open Terminal
 
 `cd v1.0.1`
 
-"#To Clone 
+"# To Clone 
 
 `git clone https://github.com/pradyumnasagar/TaBSAP.git`
 
