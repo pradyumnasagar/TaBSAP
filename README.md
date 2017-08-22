@@ -33,12 +33,12 @@ TaBSAP is a piipeline to map bisulfite treated sequencing reads to a genome of i
 #### Recommended System Requirement: 4GB RAM, 64 bit unix/linux OS.
 
 
-#### Other Requirements: R Programming, Pheatmap package for R,fastx toolkit(for 32 bit System ), Dos2Unix.
+#### Other Requirements: R, Pheatmap package for R,fastx toolkit(for 32 bit System ), Dos2Unix.
 
 
 #### License: MIT License.
 
-## Instalation:
+## Installation:
 
 1) Install the requirements 
 
