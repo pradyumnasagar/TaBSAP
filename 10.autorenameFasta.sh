@@ -14,4 +14,5 @@ echo copied
 done
 cd $out/name/
 rename $'\r' '' *
-echo script ten done
+echo "script ten done"
+./11.biqref.sh
