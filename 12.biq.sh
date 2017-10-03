@@ -24,5 +24,5 @@ java -jar  $tools/biqht/BiQ_Analyzer.jar -nogui -rseq $out/biqref/$biqref -bseq 
 echo BiQ_Analyzer running done for $biq
 done
 #done
-#cd $out
-#./13postbiq.sh
+cd $out
+./13postbiq.sh
