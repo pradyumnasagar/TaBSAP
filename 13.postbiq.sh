@@ -13,3 +13,4 @@ rename $'\r' '' ../postbiq/*
 cp -R *$mvbiq*  ../postbiq/$mvbiq/
 echo $mvbiq
 done
+15.resfile.sh
