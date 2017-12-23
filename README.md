@@ -63,7 +63,7 @@ Open Terminal
 
 `cd TaBSAP`
 
-3) Copy all the fastq files to `fastq` folder adn Unconverted reference to `reference` folder
+3) Copy all the fastq files to `fastq` folder and Unconverted reference to `reference` folder
 
 4) Run the pipeline and follow the `ON-Screen Instructions`
 
