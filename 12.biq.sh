@@ -17,7 +17,7 @@ biq=$(cat ../listdump/biq.txt | cut -d  " " -f1 | sed -n ''$ib'p')
 biqref=$(cat ../listdump/biref.txt | cut -d  " " -f1 | sed -n ''$ib'p')
 cd $out/biqref/
  
-java -jar  $tools/biqht/BiQ_Analyzer.jar -nogui -rseq $out/biqref/$biqref -bseq $out/name/$biq -outdir $out/biqout/$biq 
+java -jar -Xms1g -Xmx"$java_mem"g  $tools/biqht/BiQ_Analyzer.jar -nogui -rseq $out/biqref/$biqref -bseq $out/name/$biq -outdir $out/biqout/$biq 
 
 #java -server -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSIncrementalPacing -XX:ParallelGCThreads=16 -XX:+AggressiveOpts -Xms12G -Xmx16G -jar  $tools/biqht/BiQ_Analyzer.jar -nogui -rseq $out/biqref/$biqref -bseq $out/name/$biq -outdir $out/biqout/$biq
 
