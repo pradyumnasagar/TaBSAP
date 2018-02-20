@@ -25,7 +25,8 @@ mrg=$out/mergedData
 #Path to Merged fasta files
 name=$out/name
 #Merged files with Gene names
-
+Total_mem=$(free -g | awk 'NR==2 {print $2}')
+java_mem=$(expr $Total_mem / 2)
 cd $tools
 if [ -f ngm.zip ]
 then
