@@ -5,7 +5,7 @@
 A pipeline to analyse the data obtained from targeted bisulfite sequencing through ion-torrent platform.
 
 
-TaBSAP is a piipeline to map bisulfite treated sequencing reads to a genome of interest and perform methylation calls in a single step and enables a researcher to analyse the methylation levels of their samples straight away. It's main features are:
+TaBSAP is a pipeline to map bisulfite treated sequencing reads to a genome of interest and perform methylation calls in a single step and enables a researcher to analyse the methylation levels of their samples straight away. It's main features are:
 
 
 -Bisulfite mapping and methylation calling in one single step
