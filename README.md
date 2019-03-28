@@ -1,7 +1,7 @@
 # TaBSAP
 ## Targeted Bisulfite Sequencing Analysis Pipeline
 
-## User Guide - v0.0.1
+## User Guide - v0.0.2
 A pipeline to analyse the data obtained from targeted bisulfite sequencing through ion-torrent platform.
 
 
