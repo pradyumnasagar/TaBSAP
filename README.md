@@ -2,19 +2,18 @@
 ## Targeted Bisulfite Sequencing Analysis Pipeline
 
 ## User Guide - v0.0.2
-A pipeline to analyse the data obtained from targeted bisulfite sequencing through ion-torrent platform.
+A pipeline to analyze the data obtained from targeted bisulfite sequencing through the ion-torrent platform.
 
-
-TaBSAP is a pipeline to map bisulfite treated sequencing reads to a genome of interest and perform methylation calls in a single step and enables a researcher to analyse the methylation levels of their samples straight away. It's main features are:
-
+TaBSAP is a pipeline to map bisulfite treated sequencing reads to a genome of interest and perform methylation calls in a single step and enables a researcher to analyze the methylation levels of their samples straight away. It's main features are:
 
 -Bisulfite mapping and methylation calling in one single step
 
--Supports single-end ead alignments
+-Supports single-end read alignments
 
 -Alignment seed length, number of mismatches etc. are adjustable
 
--Output gives heatmap with catogories.
+-The output gives heatmap with categories.
+
 
 ### Minimum System Requirements
 
@@ -51,11 +50,11 @@ Open Terminal
 
 #To download
 
-`wget https://github.com/pradyumnasagar/TaBSAP/archive/v1.0.1.zip`
+`wget https://github.com/pradyumnasagar/TaBSAP/archive/v1.0.2.zip`
 
-`unzip v1.0.1.zip` 
+`unzip v1.0.2.zip` 
 
-`cd v1.0.1`
+`cd v1.0.2`
 
 #To Clone 
 
