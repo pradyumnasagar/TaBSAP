@@ -25,4 +25,4 @@ echo BiQ_Analyzer running done for $biq
 done
 #done
 cd $out
-./13postbiq.sh
+./13.postbiq.sh
