@@ -1,9 +1,0 @@
-dos2unix
-fastqc
-picard tools
-fastx toolkit
-NextGenMap
-samtools
-fastx_reverse_complement
-R
-pheatmap 
