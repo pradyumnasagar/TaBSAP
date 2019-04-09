@@ -7,7 +7,7 @@ cd biqref
 #echo folder
 
 $tools/fastx/fasta_formatter -i ccccc.fa -o conccc.fa
-echo format
+echo 'format'
 
 awk '/^>/ {OUT=substr($0,2) ".fa"}; OUT {print >OUT}' conccc.fa
 #awk '/^>/{s=++d".fa"} {print > s}' uc.fa
@@ -22,6 +22,6 @@ ls | sed 's/^#.*//' > ../listdump/biqref.txt
 
 
 
- 
+
 cd $out
 ./12.biq.sh

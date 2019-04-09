@@ -29,14 +29,26 @@ name=$datadir/name
 #Merged files with Gene names
 Total_mem=$(free -g | awk 'NR==2 {print $2}')
 java_mem=$(expr $Total_mem / 2)
-cd $tools
+cd $tools || echo "path does not exist" | tee -a data/log/errors.log | exit
 if [ -f ngm.zip ]
 then
-unzip ngm.zip
+  unzip ngm.zip
 else
-echo ""
+  echo ""
 fi
 rm -f $tools/ngm.zip
+
+
+if [ -f MultiQC.zip ]
+then
+  unzip MultiQC.zip
+  cd MultiQC
+  python setup.py install
+else
+  echo ""
+fi
+rm -f $tools/MultiQC.zip
+
 cd $TaBSAPdir
 chmod -R 0777 *
 
@@ -90,12 +102,13 @@ cd $datadir/
 while read tests ; do testss=$tests ; done < listdump/file.txt
 for ((i=1; i<=$testss; i++))
 do
-cd $raw1/
-list=$(cat ../listdump/list.txt | cut -d  " " -f1 | sed -n ''$i'p')
+  cd $raw1/
+  list=$(cat ../listdump/list.txt | cut -d  " " -f1 | sed -n ''$i'p')
 done
 
 
 cd $refs/
+##create references from unconverted fasta
 sed '/^>/! s/CG/X/g'  uc.fa | sed '/^>/! s/C/T/g'  | sed '/^>/! s/X/CG/g' > converted.fa
 $tools/fastx/fastx_reverse_complement  -i uc.fa -o rcuc.fa
 $tools/fastx/fastx_reverse_complement  -i converted.fa -o rcc.fa
@@ -112,15 +125,15 @@ cat genelist.txt | wc -l > gno.txt
 while read gen ; do gee=$gen ; done < gno.txt
 for ((j=1; j<=$gee; j++))
 do
-genes=$(cat genelist.txt | cut -d  " " -f1 | sed -n ''$j'p')
-mkdir -p ../postbiq/$genes
-rename $'\r' '' ../postbiq/*
+  genes=$(cat genelist.txt | cut -d  " " -f1 | sed -n ''$j'p')
+  mkdir -p ../postbiq/$genes
+  rename $'\r' '' ../postbiq/*
 done
 cd $datadir
 while read tes ; do tess=$tes ; done < listdump/gno.txt
 for ((im=1; im<=$tess; im++))
 do
-cat listdump/genelist.txt | cut -d  " " -f1 | sed -n ''$im'p' > genelist/$im.txt
+  cat listdump/genelist.txt | cut -d  " " -f1 | sed -n ''$im'p' > genelist/$im.txt
 done
 cd listdump/
 cd ..

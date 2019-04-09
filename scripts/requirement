@@ -1,4 +1,5 @@
 dos2unix
+rename
 fastqc
 picard tools
 fastx toolkit
@@ -6,4 +7,4 @@ NextGenMap
 samtools
 fastx_reverse_complement
 R
-pheatmap 
+pheatmap

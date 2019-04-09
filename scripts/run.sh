@@ -16,8 +16,3 @@ fi
 else
 cat no.txt
 fi
-
-
-
-
-
