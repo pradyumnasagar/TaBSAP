@@ -39,10 +39,16 @@ TaBSAP is a pipeline to map bisulfite treated sequencing reads to a genome of in
 
 ## Installation:
 
-1) Install the requirements 
+1) Install the requirements
+### installing requirements:
+#### Ubuntu
+`sudo apt-get update`
 
+`sudo apt-get install gcc make libbz2-dev zlib1g-dev libncurses5-dev libncursesw5-dev liblzma-dev`
 
-2) Download the pipeline or clone the Pipeline in your Linux system with git 
+`sudo apt-get install dos2unix rename fastqc samtools fastx-toolkit`
+
+2) Download the pipeline or clone the Pipeline in your Linux system with git
 
 
 Open Terminal
@@ -52,11 +58,11 @@ Open Terminal
 
 `wget https://github.com/pradyumnasagar/TaBSAP/archive/v1.0.2.zip`
 
-`unzip v1.0.2.zip` 
+`unzip v1.0.2.zip`
 
 `cd v1.0.2`
 
-#To Clone 
+#To Clone
 
 `git clone https://github.com/pradyumnasagar/TaBSAP.git`
 
