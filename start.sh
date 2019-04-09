@@ -6,7 +6,8 @@ echo "If grouping is enabled the numbering should be in proper order"
 echo ""
 echo "continue?? (y/n)"
 echo ""
-echo $PWD | tee data/wd.txt
+
+echo $PWD > data/wd.txt
 
 read yynn
 if echo "$yynn" | grep -iq "^y" ;then
