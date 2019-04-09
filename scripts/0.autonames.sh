@@ -1,6 +1,7 @@
 #list of diretories:
 out=$PWD
-#Main folder where scripts are located[change it with current path where script is present]
+
+#Main folder where scripts are located [change it with current path where script is present]
 refs=$out/ref
 #Reference files folder
 raw1=$out/fastq
@@ -30,7 +31,7 @@ java_mem=$(expr $Total_mem / 2)
 cd $tools
 if [ -f ngm.zip ]
 then
-unzip ngm.zip 
+unzip ngm.zip
 else
 echo ""
 fi
@@ -38,7 +39,7 @@ rm -f $tools/ngm.zip
 cd $out
 chmod -R 0777 *
 
-echo creating required directories 
+echo creating required directories
 mkdir -p fastq/
 mkdir -p ref/
 mkdir -p qb4/
@@ -84,7 +85,7 @@ cat $out/listdump/file.txt
 #list name of input files
 ls -1 *.fastq | sort -V | sed 's/^#.*//' > ../listdump/list.txt
 
-cd $out/	
+cd $out/
 while read tests ; do testss=$tests ; done < listdump/file.txt
 for ((i=1; i<=$testss; i++))
 do
@@ -123,8 +124,3 @@ done
 cd listdump/
 cd ..
 cd $out
-
-
-
-
-

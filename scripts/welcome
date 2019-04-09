@@ -1,14 +1,13 @@
-  _______    ____   _____         _____  
- |__   __|  |  _ \ / ____|  /\   |  __ \ 
+  _______    ____   _____         _____
+ |__   __|  |  _ \ / ____|  /\   |  __ \
     | | __ _| |_) | (___   /  \  | |__) |
-    | |/ _` |  _ < \___ \ / /\ \ |  ___/ 
-    | | (_| | |_) |____) / ____ \| |     
-    |_|\__,_|____/|_____/_/    \_\_|     
-                                         
-                                         
+    | |/ _` |  _ < \___ \ / /\ \ |  ___/
+    | | (_| | |_) |____) / ____ \| |
+    |_|\__,_|____/|_____/_/    \_\_|
+
+
 Welome to Targeted Bisulfite Sequencing Analysis Pipeline..!
 
-Please check the current direcory where scripts are located and change in 0.autonames.sh (in 2nd line out = /path/to/TaBSAP)
-copy the files/samples to be analyzed to fastq folder, reference to ref folder (names should be as mentioned in README).
-Everything done? (y/n)
 
+Copy the files/samples to be analyzed to data/fastq folder, reference to data/ref folder (names should be as mentioned in README).
+Everything done? (y/n)
