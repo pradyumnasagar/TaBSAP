@@ -1,5 +1,6 @@
 #!/bin/bash
 mkdir -p data/listdump
+chmod 0777 *
 echo "please copy the files to be analysed to data/fastq folder"
 echo "fastq file name should be numerical ie. 1.fastq 2.fastq 3.fastq etc."
 echo "If grouping is enabled the numbering should be in proper order"
