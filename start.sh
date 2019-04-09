@@ -6,12 +6,14 @@ echo "If grouping is enabled the numbering should be in proper order"
 echo ""
 echo "continue?? (y/n)"
 echo ""
+echo $PWD | tee data/wd.txt
+
 read yynn
 if echo "$yynn" | grep -iq "^y" ;then
-cd fastq
+cd data/fastq
 counts=$(ls *.fastq)
 counts=$(echo "$counts" | wc -l)
-cd ../
+cd ../../ || echo "path does not exist" | tee -a data/log/errors.log | exit
 echo -n "would you like to group your samples into catogories [eg. normal, tumor](y/n)? "
 echo ""
 read answer1
@@ -33,7 +35,7 @@ echo "The first $nameno1 files are categorised as $name1"
 read -p "How many files belongs to category $name2 ? " nameno2
 echo "The rest $nameno2 files are categorised as $name2"
 echo -e "$nameno1,$nameno2" > data/listdump/grpnameno.txt
-cd scripts/
+cd scripts/  || echo "path does not exist" | tee -a data/log/errors.log | exit
 ./run.sh
 
 elif echo "$answer1" | grep -iq "3" ;then
@@ -49,6 +51,7 @@ echo "The next $nameno2 files are categorised as $name2"
 read -p "How many files belongs to category $name3 ? " nameno3
 echo "The remaining $nameno3 files are categorised as $name3"
 echo -e "$nameno1,$nameno2,$nameno3" > data/listdump/grpnameno.txt
+cd scripts/ || echo "path does not exist" | tee -a data/log/errors.log | exit
 ./run.sh
 
 elif echo "$answer1" | grep -iq "4" ;then
@@ -67,6 +70,7 @@ echo "The next $nameno3 files are categorised as $name3"
 read -p "How many files belongs to category $name4 ? " nameno4
 echo "The remaining $nameno4 files are categorised as $name4"
 echo -e "$nameno1,$nameno2,$nameno3,$nameno4" > data/listdump/grpnameno.txt
+cd scripts/ || echo "path does not exist" | tee -a data/log/errors.log | exit
 ./run.sh
 
 elif echo "$answer1" | grep -iq "5" ;then
@@ -88,7 +92,7 @@ echo "The fnext $nameno4 files are categorised as $name4"
 read -p "How many files belongs to category $name5 ? " nameno5
 echo "The remaining $nameno5 files are categorised as $name5"
 echo -e "$nameno1,$nameno2,$nameno3,$nameno4,$nameno5" > data/listdump/grpnameno.txt
-cd scripts/
+cd scripts/ || echo "path does not exist" | tee -a data/log/errors.log | exit
 ./run.sh
 
 else
